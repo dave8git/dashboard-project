@@ -16,6 +16,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
+  height: 1720px;
 }
 
 #sideMenu .logo {
@@ -67,9 +68,13 @@ body {
 }
 
 header {
-  margin-left: 280px;
-  padding: 20px;
+  margin-left: 200px;
   background: #ffffff;
+  height: 57px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 header .search-area {
@@ -152,20 +157,47 @@ header a .fa-caret-down {
   top: -8px;
 }
 
-#content {
-  color: black;
-  z-index: 2000;
-  margin-left: 280px;
+#content-wrapper {
+  margin-top: 77px;
 }
 
-#content .gs {
+#content-wrapper .content {
+  height: 800px;
+  height: 800px;
+  /* margin-left: 200px; */
+  color: black;
+  background-color: white;
+  margin: 20px 20px 20px 220px;
+}
+
+#content-wrapper .content .gs {
   padding: 20px;
   display: inline-block;
+}
+
+#content-wrapper .content-1 {
+  margin-top: 57px;
 }
 
 input:active,
 input:focus,
 textarea:focus {
   outline: none;
+}
+
+@media (max-width: 991px) {
+  * {
+    margin: 0;
+  }
+  #sideMenu {
+    display: none;
+  }
+  #content-wrapper .content {
+    height: 800px;
+    /* margin-left: 200px; */
+    color: black;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
