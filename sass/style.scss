@@ -7,6 +7,7 @@ $border-left-button-color: #F48235;
 $button-color-orange: #F48235;
 $online-green: #19AC2B;
 $font-gray: #5c5c5c;
+$font-gray-light: #a6a6a6; 
 $icon-gray: #B6B7B7;
 $blue-text: #9AB2C0;
 $bars-icon-grey: #999999; 
@@ -19,6 +20,9 @@ $bars-icon-grey: #999999;
 body {
     font-family: 'Roboto', sans-serif;
     background-color: $gray-background;
+}
+.display-inline-block {
+    display: inline-block;
 }
 #sideMenu {
     background-color: $sidebar-background;
@@ -75,7 +79,47 @@ body {
             }
         }
     }
+    .sidebar-break-line {
+        border-bottom: 2px #333333 solid;
+        color: red;
+    }
+    /* section manager */
+    .sidebar-manager-photo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; 
+    }
+    .sidebar-manager-mp-text {
+        float: right;
+        font-size: 14px;
+        padding-top: 12px;
+        padding-right: 42px;
+        color: #56819f;
+    }
+
+    .sidebar-manager-your-manager-wrapper {
+        position: relative;
+        padding:20px;
+        p {
+            color: #797979;
+            padding-bottom: 12px;
+        }
+    }
+
+    .little-orange-dot-mp {
+        border-radius: 50%; 
+        background-color: orange;
+        width: 8px;
+        height: 8px; 
+        position: absolute; 
+        z-index: 10000;
+        top: 49px;
+        right: 142px;
+        margin: 2px;
+    }
+    /*------------------------*/ 
 }
+
 
 header {
     margin-left: 200px; 
@@ -173,13 +217,77 @@ header {
             .gs {
                 padding: 20px;
                 display: inline-block; 
+                color: #a6a6a6; 
+                font-weight: 500;
             }
-          
+            .content-grey-line {
+                border-bottom: 3px solid #f4f4f4;
+            }
+            .date-boxes-wrapper {
+                border: 2px solid black;
+                height: 40px;
+                width: 400px;
+                display: flex;
+                margin-right: 20px;
+                border-radius: 5px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .date-boxes-section-wrapper {
+                display: flex;
+                justify-content: center;
+            
+            }
     }
     .content-1 {
         margin-top: 57px;
     }
 }
+
+/* DATE BOXES SECTION  
+
+.date-boxes-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.date-box-1 {
+    border: 2px solid #F3F3F3;
+    padding: 10px; 
+    padding-right: 60px;
+}
+.date-box-2 {
+    border: 2px solid #f3f3f3; 
+    padding: 10px;
+    padding-right: 60px;
+    position: relative;
+}
+.img-icon-cal {
+    color: black;
+    z-index: 10000;
+    width: 16px;
+    height: 16px;
+    position: absolute; 
+    top: 9px; 
+    right: 9px;
+}
+.button-orange-refresh-size {
+    width: 44px;
+}
+
+.img-icon-refresh {
+    color: black;
+    z-index: 10000;
+    width: 22px;
+    height: 22px;
+}
+
+.date-boxes-wrapper {
+    border: 2px solid 
+} */
+
+
 
 input:active, 
 input:focus, 
