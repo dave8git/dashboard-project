@@ -225,19 +225,18 @@ header a .fa-caret-down {
 }
 
 #content-wrapper .content .content-grey-line {
-  border-bottom: 3px solid #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
 }
 
 #content-wrapper .content .date-boxes-wrapper {
-  border: 2px solid black;
-  height: 40px;
-  width: 400px;
+  border: 1px solid #e3e3e3;
   display: -ms-flexbox;
   display: flex;
   margin-right: 20px;
   border-radius: 5px;
   margin-top: 30px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 #content-wrapper .content .date-boxes-section-wrapper {
@@ -245,6 +244,54 @@ header a .fa-caret-down {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
+}
+
+#content-wrapper .content .content-date-1 {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 15px;
+  padding-right: 68px;
+  color: #333333;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  line-height: 0;
+  top: 15px;
+  font-size: 18px;
+}
+
+#content-wrapper .content .content-date-2 {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 15px;
+  padding-right: 108px;
+  color: #333333;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  line-height: 0;
+  top: 15px;
+  font-size: 18px;
+}
+
+#content-wrapper .content .img-icon-cal {
+  height: 15px;
+  top: 17px;
+  position: absolute;
+  right: 15px;
+  height: 20px;
+}
+
+#content-wrapper .content .content-grey-line-vertical {
+  border-right: 1px solid #e3e3e3;
+  height: 45px;
+  margin: 6px;
+}
+
+#content-wrapper .content .margin-right-30px {
+  padding-right: 30px;
 }
 
 #content-wrapper .content-1 {
