@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+    
     <title>Document</title>
 </head>
 <body>
@@ -47,44 +48,166 @@
             <p class="gs">GENERAL STATISTIC</p>
             <div class="content-grey-line"></div>
             <div class="date-boxes-section-wrapper">
-            <div class="date-boxes-wrapper">    
-                <span class="content-date-1">16.05.2016</span>
-                <div class="content-grey-line-vertical"></div>
-                <span class="content-date-2">16.05.2016</span><img src="icons/calendar.svg" class="img-icon-cal">
+                <div class="flex-wrapper-cnt">
+                <div class="date-boxes-wrapper">    
+                    <span class="content-date-1">16.05.2016</span>
+                    <div class="content-grey-line-vertical"></div>
+                    <span class="content-date-2">16.05.2016</span><img src="icons/calendar.svg" class="img-icon-cal">
             </div>
-            <button class="display-inline-block content-date-button"><img src="icons/refresh.svg" class="img-icon-refresh"></button>
-            </div>
+            <button class="display-inline-block content-date-button button-orange"><img src="icons/refresh.svg" class="img-icon-refresh"></button>
+        </div>
+    </div>
+        <div class="content-grey-line"></div>
             <!-- STATISTIC - WITH UNDERLINE AND NUMBER -->
-            <div class="container-2">
-                <div class="row display-medium">
-                    <div class="box col-6 col-m-12n flex-for-box">
-                        <span>Visit signups</span><span class="shady-number">124</span>
+            <div class="container-stat-section">
+                <div class="row">
+                    <div class="col-5 flex-space-between grey-1px-underline">
+                        <span class="main-text">Visit signups</span><span class="">124</span>
                     </div>
-                    <div class=" box col-6 col-m-12n flex-for-box">
-                        <span>FTD</span><span class="shady-number">445</span>
-                    </div>
-                </div>
-                <div class="row display-medium">
-                    <div class="box col-6 col-m-12n flex-for-box">
-                        <span>Net deposit</span><span class="shady-number">564</span>
-                    </div>
-                    <div class="box col-6 col-m-12n flex-for-box">
-                        <span>Turn over</span><span class="shady-number">432</span>
+                    <div class="i70-pixels"></div>
+                    <div class="col-5 flex-space-between grey-1px-underline">
+                        <span class="main-text">FTD</span><span class="">445</span>
                     </div>
                 </div>
-                Eearnings chart
+                <div class="row">
+                    <div class="col-5 flex-space-between grey-1px-underline">
+                        <span class="main-text">Net deposit</span><span class="">564</span>
+                    </div>
+                    <div class="i70-pixels"></div>
+                    <div class="col-5 flex-space-between grey-1px-underline">
+                        <span class="main-text">Turn over</span><span class="">432</span>
+                    </div>
+                </div>
+            <p class="main-text padding-top-70">Eearnings chart</p>
+            <canvas id="myChart"></canvas>
             </div>
-            
         </div>
-            <div class="content-grey-line"></div>
-           
         </div>
-
     </div>
         <div class="content content-2">
+                <div class="gs">LINKS</div>
+                <div class="content-grey-line"></div>
+                <div class="container-2">
 
+                        <div class="text-align-center"><button class="button-orange padding-15-button-orange">+ add new</button></div>
+                        <div class="row padding-normal border-row-btm-top hover-efct flex-links">
+                            <div class="col-4">
+                                <span>Home page</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links margin-for-icons">http//www.homepage.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange icon-hidden"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash icon-hidden">
+                            </div>
+                        </div>
+
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Currently offer</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.currently.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-icon-sidebar links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Blurpix</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.blurpix.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Your Site</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.yoursite.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Google</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.google.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Facebook</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.facebook.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Dashboar</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.dashboard.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Blurax</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.blurax.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Piece of Wine</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.pieceofwine.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="row padding-normal border-row-btm-top hover-efct">
+                            <div class="col-4 name-to-link-hidden">
+                                <span>Twitter</span>
+                            </div>
+                            <div class="col-4">
+                                <span><a href="#" class="no-style-links">http//www.twitter.com</a></span>
+                            </div>
+                            <div class="col-2 flex-links">
+                                <img src="icons/links-orange.svg" class="sidebar-img-icon links-orange"><img src="icons/trash.svg" class="sidebar-img-icon icon-trash">
+                            </div>
+                        </div>
+                        <div class="text-align-center"><button class="button-orange padding-15-button-orange">+ add new</button></div>
+                    </div>
+                </div>
         </div>
     </section>
     </aside>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
