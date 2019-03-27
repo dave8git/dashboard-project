@@ -36,6 +36,21 @@ body {
 .padding-40 {
     padding: 40px;
 }
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+.margin-top-25 {
+    margin-top: 40px;
+}
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+.margin-top-25 {
+    margin-top: 25px;
+}
+.no-style-links {
+    text-decoration: none;
+}
 .main-text {
     color: #a6a6a6;
     font-weight: 500;
@@ -310,13 +325,14 @@ header {
                 padding: 10px;
                 color: #fff;
                 display: inline-block;
-                -ms-flex-pack: center;
                 justify-content: center;
                 border: none;
+            }
+            .content-button-orange-size {
+                width: 58px;
                 margin-top: 32px;
                 margin-bottom: 32px;
-                width: 58px;
-            }
+              }
             .container-stat-section {
                 width: calc(100% - 200px);
                 margin: 0 auto;
@@ -496,8 +512,17 @@ $columns: 12;
         height: 16px;
     }
     .container-2 {
-        max-width: 800px;
+        max-width: 900px;
         margin: 0 auto;
-        padding-top: 40px;
+        padding-top: 30px;
         font-size: 12px;
     }
+    .links-wrapper {
+        height: 100%;
+    }
+    .gs-2 {
+        color: #a6a6a6; 
+        font-weight: 500;
+        font-size: 14px;
+    }
+  
