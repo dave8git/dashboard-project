@@ -443,6 +443,29 @@ textarea:focus {
   outline: none;
 }
 
+.content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  border: 2px solid red;
+}
+
+.links-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border: 2px solid green;
+}
+
+.container-2 {
+  width: 80%;
+  border: 2px solid purple;
+}
+
 @media (max-width: 991px) {
   * {
     margin: 0;
@@ -617,6 +640,13 @@ textarea:focus {
 
 .links-wrapper {
   height: 100%;
+}
+
+links-padding {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .gs-2 {

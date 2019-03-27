@@ -117,6 +117,7 @@ body {
         border-bottom: 2px #333333 solid;
         color: red;
     }
+
     /* section manager */
     .sidebar-manager-photo {
         width: 40px;
@@ -407,7 +408,23 @@ input:focus,
 textarea:focus {
     outline: none;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
 
+.links-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+.container-2 {
+    width: 80%; // na to musisz uważać, bo może się gryźć z szerokością innych sekcji, do których nie zaglądałem
+    border: 2px solid purple;
+}
 @media (max-width: 991px) {
     *{
         margin: 0;
@@ -519,6 +536,10 @@ $columns: 12;
     }
     .links-wrapper {
         height: 100%;
+    }
+    links-padding {
+        display: flex;
+        align-items: center;
     }
     .gs-2 {
         color: #a6a6a6; 
