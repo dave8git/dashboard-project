@@ -550,7 +550,7 @@ textarea:focus {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .links-wrapper {
@@ -560,12 +560,12 @@ textarea:focus {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 }
 
 .container-2 {
   width: 80%;
-  border: 2px solid purple;
+  /*border: 2px solid purple;*/
 }
 
 @media (max-width: 991px) {
