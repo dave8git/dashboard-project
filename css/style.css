@@ -58,12 +58,20 @@ body {
   text-align: center;
 }
 
+.content-grey-line-vertical {
+  border-right: 1px solid #e3e3e3;
+  height: 45px;
+  margin: 6px;
+}
+
 /* Navbar icons */
 header .user-area {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 header .navbar-wallet-icon {
@@ -225,11 +233,6 @@ header .search-area input[type="text"] {
 
 header .search-area input[type="text"]:hover {
   background: #5c5c5c;
-}
-
-header .user-area {
-  float: right;
-  padding: 10px;
 }
 
 header a {

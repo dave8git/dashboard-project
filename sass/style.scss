@@ -58,11 +58,17 @@ body {
 .text-align-center {
     text-align: center;
 }
+.content-grey-line-vertical {
+                border-right: 1px solid #e3e3e3;
+                height: 45px;
+                margin: 6px;
+            }
 /* Navbar icons */ 
 header {
     .user-area {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
     .navbar-wallet-icon {
         width: 25px; 
@@ -217,8 +223,6 @@ header {
     }
 }
 .user-area { 
-    float: right; 
-    padding: 10px; 
     }
     a{
         color: $font-gray; 
