@@ -58,6 +58,35 @@ body {
 .text-align-center {
     text-align: center;
 }
+/* Navbar icons */ 
+header {
+    .user-area {
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar-wallet-icon {
+        width: 25px; 
+        height: 25px;
+    }
+    .navbar-bell-icon-inner {
+        width: 25px; 
+        height: 25px;
+    }
+    .navbar-profile-icon {
+        width: 25px; 
+        height: 25px;
+    }
+    .navbar-quit-icon {
+        width: 25px; 
+        height: 25px;
+    }
+    .navbar-arrow-down-icon {
+        width: 25px; 
+        height: 25px;
+    }
+}
+
+/* -------------- */
 #sideMenu {
     background-color: $sidebar-background;
     max-width: 200px;
@@ -187,8 +216,7 @@ header {
         }
     }
 }
-.user-area {
-    display: inline-block; 
+.user-area { 
     float: right; 
     padding: 10px; 
     }

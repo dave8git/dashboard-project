@@ -58,6 +58,40 @@ body {
   text-align: center;
 }
 
+/* Navbar icons */
+header .user-area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+header .navbar-wallet-icon {
+  width: 25px;
+  height: 25px;
+}
+
+header .navbar-bell-icon-inner {
+  width: 25px;
+  height: 25px;
+}
+
+header .navbar-profile-icon {
+  width: 25px;
+  height: 25px;
+}
+
+header .navbar-quit-icon {
+  width: 25px;
+  height: 25px;
+}
+
+header .navbar-arrow-down-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* -------------- */
 #sideMenu {
   background-color: #1F1F1F;
   max-width: 200px;
@@ -194,7 +228,6 @@ header .search-area input[type="text"]:hover {
 }
 
 header .user-area {
-  display: inline-block;
   float: right;
   padding: 10px;
 }
