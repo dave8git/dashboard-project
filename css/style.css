@@ -212,7 +212,8 @@ header .content-grey-vertical-header {
   padding: 15px 30px 15px 25px;
 }
 
-#sideMenu nav a .far, #sideMenu nav a .fas {
+#sideMenu nav a .far,
+#sideMenu nav a .fas {
   font-size: 1.4rem;
   margin-right: .8rem;
   display: inline-block;
