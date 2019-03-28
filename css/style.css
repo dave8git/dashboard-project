@@ -45,6 +45,22 @@ body {
   margin-top: 25px;
 }
 
+.margin-right-20 {
+  margin-right: 20px;
+}
+
+.margin-right-25 {
+  margin-right: 25px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-left-25 {
+  margin-left: 25px;
+}
+
 .no-style-links {
   text-decoration: none;
 }
@@ -54,14 +70,19 @@ body {
   font-weight: 500;
 }
 
+.main-text-blue {
+  font-weight: 400px;
+  font-size: 14px;
+  color: #56819f;
+}
+
 .text-align-center {
   text-align: center;
 }
 
 .content-grey-line-vertical {
   border-right: 1px solid #e3e3e3;
-  height: 45px;
-  margin: 6px;
+  height: 57px;
 }
 
 /* Navbar icons */
@@ -72,6 +93,8 @@ header .user-area {
       flex-direction: row;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
 }
 
 header .navbar-wallet-icon {
@@ -95,8 +118,14 @@ header .navbar-quit-icon {
 }
 
 header .navbar-arrow-down-icon {
-  width: 25px;
-  height: 25px;
+  width: 11px;
+  height: 11px;
+}
+
+header .content-grey-vertical-header {
+  border-right: 1px solid #e3e3e3;
+  height: 45px;
+  margin: 6px;
 }
 
 /* -------------- */
@@ -204,7 +233,6 @@ header .navbar-arrow-down-icon {
 header {
   margin-left: 200px;
   background: #ffffff;
-  height: 57px;
   position: absolute;
   top: 0;
   right: 0;
