@@ -61,6 +61,26 @@ body {
   margin-left: 25px;
 }
 
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
 .no-style-links {
   text-decoration: none;
 }
@@ -78,6 +98,10 @@ body {
 
 .text-align-center {
   text-align: center;
+}
+
+.color-red {
+  color: red;
 }
 
 .content-grey-line-vertical {
@@ -157,6 +181,20 @@ header .content-grey-vertical-header {
   color: #999999;
   top: 15px;
   right: 25px;
+}
+
+#sideMenu .invisible-menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: none;
+}
+
+#sideMenu .sidebar-icon-padding {
+  padding: 5px;
 }
 
 #sideMenu nav a {
@@ -534,37 +572,26 @@ textarea:focus {
   * {
     margin: 0;
   }
-  html {
-    position: relative;
+  #content-wrapper {
+    margin-top: 0px;
   }
-  header {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: initial;
-  }
-  #sideMenu {
+  header .user-area {
     display: none;
   }
-  #content-wrapper {
-    margin-top: 0;
+  /*#content-wrapper {
+        margin-top: 0;
+    }*/
+  #content-wrapper .content-1 {
+    margin-top: 0px;
   }
   #content-wrapper .content {
-    height: 800px;
-    /* margin-left: 200px; */
-    color: black;
-    background-color: white;
-    margin: 0;
+    margin: 0px 0px 0px 200px;
   }
-  #content-wrapper .content-1 {
-    margin: 20px;
+  #sideMenu {
+    height: 1600px;
   }
-  #content-wrapper .content-2 {
-    margin: 20px 20px 77px 20px;
-  }
-  header {
-    margin-left: 0;
+  #sideMenu .invisible-menu {
+    display: initial;
   }
 }
 
