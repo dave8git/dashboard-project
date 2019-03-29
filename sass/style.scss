@@ -237,6 +237,7 @@ header {
             }
         }
     }
+    
 
     .sidebar-break-line {
         border-bottom: 2px #333333 solid;
@@ -372,6 +373,17 @@ header {
     }
 }
 
+
+.sideMenu-small {
+    width: 100px; 
+    position: absolute; 
+    top: 70px;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    border: 1px solid red;
+
+}
 #content-wrapper {
     margin-top: 77px;
 
@@ -465,13 +477,17 @@ header {
         }
 
         .button-orange {
-            background-color: orange;
+            background-color: #f58220;
             border-radius: 5%;
             padding: 10px;
             color: #fff;
             display: inline-block;
             justify-content: center;
             border: none;
+        }
+
+        .button-orange:hover {
+            background-color: #ffB553;
         }
 
         .content-button-orange-size {

@@ -352,6 +352,16 @@ header a .fa-caret-down {
   top: -8px;
 }
 
+.sideMenu-small {
+  width: 100px;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: 1000;
+  background-color: black;
+  border: 1px solid red;
+}
+
 #content-wrapper {
   margin-top: 77px;
 }
@@ -454,7 +464,7 @@ header a .fa-caret-down {
 }
 
 #content-wrapper .content .button-orange {
-  background-color: orange;
+  background-color: #f58220;
   border-radius: 5%;
   padding: 10px;
   color: #fff;
@@ -462,6 +472,10 @@ header a .fa-caret-down {
   -ms-flex-pack: center;
       justify-content: center;
   border: none;
+}
+
+#content-wrapper .content .button-orange:hover {
+  background-color: #ffB553;
 }
 
 #content-wrapper .content .content-button-orange-size {
