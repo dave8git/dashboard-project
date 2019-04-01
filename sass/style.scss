@@ -625,7 +625,59 @@ textarea:focus {
         display: initial;
     }
 }
-
+@media (min-width: 769px) {
+    .flex-wrapper-cnt-small {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+   #sideMenu {
+        display: none; 
+   }
+   .content-1 {
+       margin-right: 0;
+       margin-left: 0;
+       width: 100%;
+   }
+   .content {
+       margin: 0;
+   }
+   #content-wrapper .content {
+       margin: 0;
+   }
+   #content-wrapper .content .container-stat-section {
+        width: 100%; 
+    }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    #content-wrapper .content .flex-wrapper-cnt {
+        display: none;
+    }
+    #content-wrapper .content .content-date-1 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #content-wrapper .content .content-date-2 {
+        padding-left: 5px;
+        padding-right: 45px;
+    }
+    #content-wrapper .content .content-button-orange-size {
+        width: 104px;
+        /* margin-top: 32px; */
+        margin-bottom: 32px;
+    }
+    #content-wrapper .content .date-boxes-wrapper {
+       margin-right: 0px;
+       margin-bottom: 0px;
+    }
+    #content-wrapper .content .content-button-orange-size {
+        margin-left: 28%;
+    }
+}
 .content-2 {
     margin-bottom: 77px;
 }
