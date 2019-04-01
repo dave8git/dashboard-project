@@ -681,6 +681,19 @@ textarea:focus {
         padding-right: 10px;
         padding-left: 10px;
     }
+    #content-wrapper .content .gs {
+        padding: 20px;
+        display: flex; 
+        color: #a6a6a6;
+        font-weight: 500;
+    }
+    .gs-flexi-plexi {
+        justify-content: space-between;
+    }
+    .fa-bars {
+        width: 40px; 
+        height: 40px;
+    }
 }
 .content-2 {
     margin-bottom: 77px;
